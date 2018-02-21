@@ -15,8 +15,8 @@ namespace Index
 
         public YummlyClient(string appId = null, string appKey = null)
         {
-            AppId = appId ?? "99d26f8f";
-            AppKey = appKey ?? "69e0ef3a8790d7e8dd3a7db87031d5d9";
+            AppId = appId ?? "REPLACE_YOUR_APP_ID_HERE";
+            AppKey = appKey ?? "REPLACE_YOUR_APP_KEY_HERE";
             httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Clear();
             httpClient.DefaultRequestHeaders.Add("X-Yummly-App-ID", AppId);
